@@ -1,0 +1,29 @@
+SIMULATIONS = 10000
+
+CYCLES = 8
+
+FOOD_CYCLES = range(1, 9)
+FUEL_CYCLES = range(6, 9)
+
+SURVIVAL_WEIGHTS = {
+    "NOURRITURE": 2,
+    "BOIS": 2,
+    "RESSOURCE": 2,
+    "CONSTRUCTION": 1,
+}
+
+ALLOCATOR = "weighted_random"
+RANDOM_SEED = None
+
+# Amount of randomness added to each project's score
+RANDOMNESS = 1.0
+
+# Score multiplier for each duplicate instance
+DUPLICATE_DECAY = 0.7
+
+NON_REPEATABLE_TAGS = {
+    "CONSTRUCTION",
+    "UNIQUE",
+}
+
+PROJECTS_FILE_PATH="data/projects.xlsx"

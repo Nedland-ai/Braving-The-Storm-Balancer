@@ -1,0 +1,480 @@
+[
+    {
+        "id": "queen_altar_construction",
+        "card": "Autel de la Reine",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [
+            "FACTION LOYALISTE"
+        ],
+        "inputs": {
+            "TEXTILE": 2,
+            "PIERRE": 2,
+            "BOIS": 2
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT AUTEL DE LA REINE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "queen_altar_light",
+        "card": "Autel de la Reine",
+        "name": "Éclairer",
+        "workers_required": 1,
+        "requirements": [
+            "BATIMENT AUTEL DE LA REINE"
+        ],
+        "inputs": {
+            "BOIS": 1
+        },
+        "outputs": {},
+        "grants": [],
+        "tags": []
+    },
+    {
+        "id": "camp_food_construction",
+        "card": "Camp de ressources",
+        "name": "Construire",
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [
+            "BATIMENT CAMP DE NOURRITURE"
+        ],
+        "tags": [
+            "IMMEDIAT",
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "camp_food_production",
+        "card": "Camp de ressources",
+        "name": "Produire nourriture",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT CAMP DE NOURRITURE"
+        ],
+        "inputs": {},
+        "outputs": {
+            "NOURRITURE": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "camp_wood_construction",
+        "card": "Camp de ressources",
+        "name": "Construire",
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [
+            "BATIMENT CAMP DE BOIS"
+        ],
+        "tags": [
+            "IMMEDIAT",
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "camp_wood_production",
+        "card": "Camp de ressources",
+        "name": "Produire bois",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT CAMP DE BOIS"
+        ],
+        "inputs": {},
+        "outputs": {
+            "BOIS": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "camp_stone_construction",
+        "card": "Camp de ressources",
+        "name": "Construire",
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [
+            "BATIMENT CAMP DE PIERRE"
+        ],
+        "tags": [
+            "IMMEDIAT",
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "camp_stone_production",
+        "card": "Camp de ressources",
+        "name": "Produire pierre",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT CAMP DE PIERRE"
+        ],
+        "inputs": {},
+        "outputs": {
+            "PIERRE": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "camp_fiber_construction",
+        "card": "Camp de ressources",
+        "name": "Construire",
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [
+            "BATIMENT CAMP DE FIBRE"
+        ],
+        "tags": [
+            "IMMEDIAT",
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "camp_fiber_production",
+        "card": "Camp de ressources",
+        "name": "Produire fibre",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT CAMP DE FIBRE"
+        ],
+        "inputs": {},
+        "outputs": {
+            "FIBRE": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "workshop_construction",
+        "card": "Atelier",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 8
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT ATELIER"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "workshop_production_plank",
+        "card": "Atelier",
+        "name": "Produire planches",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT ATELIER"
+        ],
+        "inputs": {
+            "BOIS": 2
+        },
+        "outputs": {
+            "PLANCHE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "workshop_production_brick",
+        "card": "Atelier",
+        "name": "Produire briques",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT ATELIER"
+        ],
+        "inputs": {
+            "FIL": 2
+        },
+        "outputs": {
+            "TEXTILE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "workshop_production_textile",
+        "card": "Atelier",
+        "name": "Produire textiles",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT ATELIER"
+        ],
+        "inputs": {
+            "PIERRE": 2
+        },
+        "outputs": {
+            "BRIQUE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "mine_metal_construction",
+        "card": "Mine",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 5,
+            "PIERRE": 3
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MINE DE METAL"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "mine_metal_production",
+        "card": "Mine",
+        "name": "Produire métal",
+        "workers_required": 4,
+        "requirements": [
+            "BATIMENT MINE DE METAL"
+        ],
+        "inputs": {
+            "BOIS": 1
+        },
+        "outputs": {
+            "METAL": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "mine_coal_construction",
+        "card": "Mine",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 5,
+            "PIERRE": 3
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MINE DE CHARBON"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "mine_coal_construction",
+        "card": "Mine",
+        "name": "Produire charbon",
+        "workers_required": 4,
+        "requirements": [
+            "BATIMENT MINE DE CHARBON"
+        ],
+        "inputs": {
+            "BOIS": 1
+        },
+        "outputs": {
+            "CHARBON": 6
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_food_harvest",
+        "card": "Ferme",
+        "name": "Récolter nourriture",
+        "workers_required": 4,
+        "requirements": [
+            "BATIMENT FERME NOURRITURE",
+            "SAISON ECLAIRCIE"
+        ],
+        "inputs": {
+            "CHAMP FERTILE NOURRITURE": 2
+        },
+        "outputs": {
+            "NOURRITURE": 20
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_food_planting",
+        "card": "Ferme",
+        "name": "Planter nourriture",
+        "workers_required": 4,
+        "requirements": [
+            "BATIMENT FERME NOURRITURE",
+            "SAISON BRUINE"
+        ],
+        "inputs": {},
+        "outputs": {
+            "CHAMP FERTILE NOURRITURE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_food_construction",
+        "card": "Ferme",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT FERME NOURRITURE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "farm_cereal_harvest",
+        "card": "Ferme",
+        "name": "Récolter céréale",
+        "workers_required": 4,
+        "requirements": [
+            "BATIMENT FERME CEREALE",
+            "SAISON ECLAIRCIE"
+        ],
+        "inputs": {
+            "CHAMP FERTILE CEREALE": 2
+        },
+        "outputs": {
+            "CEREALE": 20
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_cereal_planting",
+        "card": "Ferme",
+        "name": "Planter céréale",
+        "workers_required": 4,
+        "requirements": [
+            "BATIMENT FERME CEREALE",
+            "SAISON BRUINE"
+        ],
+        "inputs": {},
+        "outputs": {
+            "CHAMP FERTILE CEREALE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_cereal_construction",
+        "card": "Ferme",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT FERME CEREALE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "mill_construction",
+        "card": "Moulin",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 4,
+            "TEXTILE": 4,
+            "BRIQUE": 2
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MOULIN"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "mill_production",
+        "card": "Moulin",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT MOULIN"
+        ],
+        "inputs": {
+            "CEREALE": 10
+        },
+        "outputs": {
+            "FARINE": 10
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    }
+]

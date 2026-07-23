@@ -1,0 +1,140 @@
+[
+    {
+        "id": "farm_harvest",
+        "card": "Ferme",
+        "name": "Récolte",
+        "workers": 4,
+        "requirements": [
+            "BATIMENT FERME",
+            "SAISON ECLAIRCIE"
+        ],
+        "output requirements": [],
+        "inputs": {
+            "CHAMP FERTILE": 2
+        },
+        "outputs": {
+            "NOURRITURE": 20
+        },
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_planting",
+        "card": "Ferme",
+        "name": "Semer",
+        "workers": 4,
+        "requirements": [
+            "BATIMENT FERME",
+            "SAISON BRUINE"
+        ],
+        "output requirements": [],
+        "inputs": {
+        },
+        "outputs": {
+            "CHAMP FERTILE": 2
+        },
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "farm_construction",
+        "card": "Ferme",
+        "name": "Construire",
+        "workers": 4,
+        "requirements": [
+        ],
+        "output requirements":[
+            "BATIMENT FERME"
+        ],
+        "inputs": {
+            "BOIS": 4
+        },
+        "outputs": {
+        },
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+        {
+        "id": "camp_construction",
+        "card": "Camp de ressources",
+        "name": "Construire",
+        "workers": 0,
+        "requirements": [
+        ],
+        "output requirements":[
+            "BATIMENT CAMP DE RESSOURCES"
+        ],
+        "inputs": {
+        },
+        "outputs": {
+        },
+        "tags": [
+            "IMMEDIAT"
+        ]
+    },
+    {
+        "id": "camp_production",
+        "card": "Camp de ressources",
+        "name": "Produire",
+        "workers": 2,
+        "output requirements": [],
+        "requirements": [
+            "BATIMENT CAMP DE RESSOURCES"
+        ],
+        "inputs": {
+        },
+        "outputs": {
+            "NOURRITURE": 4
+        },
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "queen_hotel_construction",
+        "card": "Autel de la Reine",
+        "name": "Construire",
+        "workers": 2,
+        "output requirements": [
+            "BATIMENT AUTEL DE LA REINE"
+        ],
+        "requirements": [
+            "FACTION LOYALISTE"
+        ],
+        "inputs": {
+            "TEXTILE": 2,
+            "PIERRE": 2,
+            "BOIS": 2
+        },
+        "outputs": {
+        },
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "queen_hotel_light",
+        "card": "Autel de la Reine",
+        "name": "Éclairer",
+        "workers": 1,
+        "output requirements": [
+        ],
+        "requirements": [
+            "BATIMENT AUTEL DE LA REINE"
+        ],
+        "inputs": {
+            "BOIS": 1
+        },
+        "outputs": {
+        },
+        "tags": [
+            "IMMEDIAT"
+        ]
+    }   
+]

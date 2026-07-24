@@ -1,4 +1,4 @@
-SIMULATIONS = 10000
+SIMULATIONS = 1000
 
 CYCLES = 8
 
@@ -6,9 +6,9 @@ FOOD_CYCLES = range(1, 9)
 FUEL_CYCLES = range(6, 9)
 
 SURVIVAL_WEIGHTS = {
-    "NOURRITURE": 2,
-    "BOIS": 2,
-    "RESSOURCE": 2,
+    "NOURRITURE": 1,
+    "BOIS": 1,
+    "RESSOURCE": 1,
     "CONSTRUCTION": 1,
 }
 

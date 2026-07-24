@@ -40,12 +40,13 @@ projects = [
 
 #Définit les ressources et ouvriers de départ
 resources = {
-    "NOURRITURE": 80,
+    "NOURRITURE": 60,
     "BOIS": 60,
 }
-workers = 20
+workers = 25
 
 #Lancer la simulation
+print("Launching simulation...")
 stats = run(
     config.SIMULATIONS,
     resources,

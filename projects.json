@@ -95,7 +95,7 @@
         ],
         "inputs": {},
         "outputs": {
-            "BOIS": 6
+            "BOIS": 4
         },
         "grants": [],
         "tags": [
@@ -129,7 +129,7 @@
         ],
         "inputs": {},
         "outputs": {
-            "PIERRE": 6
+            "PIERRE": 4
         },
         "grants": [],
         "tags": [
@@ -163,7 +163,7 @@
         ],
         "inputs": {},
         "outputs": {
-            "FIBRE": 6
+            "FIBRE": 4
         },
         "grants": [],
         "tags": [
@@ -1328,38 +1328,5 @@
         "tags": [
             "CONSTRUCTION"
         ]
-    },
-    {
-        "id": null,
-        "card": null,
-        "name": null,
-        "workers_required": 0,
-        "requirements": [],
-        "inputs": {},
-        "outputs": {},
-        "grants": [],
-        "tags": []
-    },
-    {
-        "id": null,
-        "card": null,
-        "name": null,
-        "workers_required": 0,
-        "requirements": [],
-        "inputs": {},
-        "outputs": {},
-        "grants": [],
-        "tags": []
-    },
-    {
-        "id": null,
-        "card": null,
-        "name": null,
-        "workers_required": 0,
-        "requirements": [],
-        "inputs": {},
-        "outputs": {},
-        "grants": [],
-        "tags": []
     }
 ]

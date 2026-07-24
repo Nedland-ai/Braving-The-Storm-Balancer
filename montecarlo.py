@@ -1,3 +1,4 @@
+from tqdm import tqdm
 from settlement import Settlement
 from statistics import Statistics
 
@@ -8,7 +9,7 @@ def run(simulations,
 
     stats = Statistics()
 
-    for _ in range(simulations):
+    for _ in tqdm(range(simulations)):
 
         s = Settlement(
             resources,

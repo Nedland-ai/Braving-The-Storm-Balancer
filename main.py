@@ -1,7 +1,9 @@
 """TO DO:
-    - Ajouter d'autres projets et ressources selon la liste initiale
+    - Rapport de simulation plus détaillé
+    - Inciter à construire davantage
     - Grouper des types de ressources
     - Accélération et Ralentissement
+    - Habitations
     - Tags, effets immédiats pour la production de ressources (comme l'énergie ou le cannibalisme)
     - Groupes d'ouvrier
     - Conditions initiales (bâtiments, etc.) et gestion des dépôts disponibles (pour les camps, les fermes et les mines)
@@ -57,4 +59,4 @@ for resource, values in stats.resources.items():
     print(resource, sum(values) / len(values))
 
 for requirement, values in stats.requirements.items():
-    print(requirement, sum(values) / len(values))
+    print(requirement, sum(values) / config.SIMULATIONS)

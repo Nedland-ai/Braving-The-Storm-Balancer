@@ -95,7 +95,7 @@
         ],
         "inputs": {},
         "outputs": {
-            "BOIS": 4
+            "BOIS": 6
         },
         "grants": [],
         "tags": [
@@ -129,7 +129,7 @@
         ],
         "inputs": {},
         "outputs": {
-            "PIERRE": 4
+            "PIERRE": 6
         },
         "grants": [],
         "tags": [
@@ -163,7 +163,7 @@
         ],
         "inputs": {},
         "outputs": {
-            "FIBRE": 4
+            "FIBRE": 6
         },
         "grants": [],
         "tags": [
@@ -278,7 +278,7 @@
             "BOIS": 1
         },
         "outputs": {
-            "METAL": 4
+            "MINERAI": 6
         },
         "grants": [],
         "tags": [
@@ -476,5 +476,890 @@
             "RESSOURCE",
             "FLEXIBLE"
         ]
+    },
+    {
+        "id": "bakery_construction",
+        "card": "Boulangerie",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 2,
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT BOULANGERIE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "bakery_production",
+        "card": "Boulangerie",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT BOULANGERIE"
+        ],
+        "inputs": {
+            "FARINE": 10
+        },
+        "outputs": {
+            "PAIN": 16,
+            "NOURRITURE": 16
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "brewery_construction",
+        "card": "Brasserie",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "METAL": 2,
+            "BRIQUE": 2,
+            "PLANCHE": 3
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT BRASSERIE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "brewery_production",
+        "card": "Brasserie",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT BRASSERIE"
+        ],
+        "inputs": {
+            "CEREALE": 6
+        },
+        "outputs": {
+            "BIERE": 12
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "tailor_construction",
+        "card": "Tailleur",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 4,
+            "BRIQUE": 2
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT TAILLEUR"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "tailor_production",
+        "card": "Tailleur",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT TAILLEUR"
+        ],
+        "inputs": {
+            "TEXTILE": 2
+        },
+        "outputs": {
+            "VETEMENTS": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "ranch_construction",
+        "card": "Ranch",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 4,
+            "FIBRE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT RANCH"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "ranch_production",
+        "card": "Ranch",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT RANCH"
+        ],
+        "inputs": {
+            "NOURRITURE": 2
+        },
+        "outputs": {
+            "NOURRITURE": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "smelter_construction",
+        "card": "Fonderie",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT FONDERIE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "smelter_production",
+        "card": "Fonderie",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT FONDERIE"
+        ],
+        "inputs": {
+            "MINERAI": 6
+        },
+        "outputs": {
+            "METAL": 4
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "trading_post_construction",
+        "card": "Comptoir commercial",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 3,
+            "TEXTILE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT COMPTOIR COMMERCIAL"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "armory_construction",
+        "card": "Armurerie",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 2,
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT ARMURERIE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "armory_production_weapon",
+        "card": "Armurerie",
+        "name": "Produire armure",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT ARMURERIE"
+        ],
+        "inputs": {
+            "METAL": 2,
+            "CHARBON": 2,
+            "OUTIL": 2
+        },
+        "outputs": {
+            "ARMURE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "armory_production_armour",
+        "card": "Armurerie",
+        "name": "Produire arme",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT ARMURERIE"
+        ],
+        "inputs": {
+            "METAL": 2,
+            "BOIS": 2,
+            "CHARBON": 2,
+            "OUTIL": 2
+        },
+        "outputs": {
+            "ARME": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "tavern_construction",
+        "card": "Taverne",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 4,
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT TAVERNE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "temple_construction",
+        "card": "Temple",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "BRIQUE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT TEMPLE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "storage_construction",
+        "card": "Entrepôt",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 5
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT ENTREPOT"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "dam_construction",
+        "card": "Barrage",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 8,
+            "BRIQUE": 12
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT BARRAGE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "house_construction",
+        "card": "Habitation",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 4,
+            "TEXTILE": 2
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MAISON"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "comfortable_house_construction",
+        "card": "Habitation",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 2,
+            "BRIQUE": 4,
+            "TEXTILE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MAISON CONFORTABLE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "rain_engine_construction",
+        "card": "Moteur de pluie",
+        "name": "Construire",
+        "workers_required": 1,
+        "requirements": [],
+        "inputs": {
+            "METAL": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MOTEUR DE PLUIE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "runemaker_construction",
+        "card": "Maître des runes",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 4,
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MAITRE DES RUNES"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "runemaker_upgrade_armor",
+        "card": "Maître des runes",
+        "name": "Améliorer",
+        "workers_required": 1,
+        "requirements": [
+            "BATIMENT MAITRE DES RUNES"
+        ],
+        "inputs": {
+            "PIERRE": 1,
+            "ARME": 1
+        },
+        "outputs": {
+            "ARME ENCHANTEE": 1
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE"
+        ]
+    },
+    {
+        "id": "runemaker_upgrade_jewelry",
+        "card": "Maître des runes",
+        "name": "Améliorer",
+        "workers_required": 1,
+        "requirements": [
+            "BATIMENT MAITRE DES RUNES"
+        ],
+        "inputs": {
+            "PIERRE": 1,
+            "BIJOU": 1
+        },
+        "outputs": {
+            "BIJOU ENCHANTE": 1
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE"
+        ]
+    },
+    {
+        "id": "runemaker_upgrade_weapon",
+        "card": "Maître des runes",
+        "name": "Améliorer",
+        "workers_required": 1,
+        "requirements": [
+            "BATIMENT MAITRE DES RUNES"
+        ],
+        "inputs": {
+            "PIERRE": 1,
+            "ARMURE": 1
+        },
+        "outputs": {
+            "ARMURE ENCHANTEE": 1
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE"
+        ]
+    },
+    {
+        "id": "herbalist_construction",
+        "card": "Herboriste",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 4,
+            "TEXTILE": 2
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT HERBORISTE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "herbalist_production",
+        "card": "Herboriste",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT HERBORISTE"
+        ],
+        "inputs": {},
+        "outputs": {
+            "INGREDIENT": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "potion_brewer_construction",
+        "card": "Brasseur de potions",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "BRIQUE": 6,
+            "TEXTILE": 4,
+            "METAL": 1
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT BRASSEUR DE POTIONS"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "potion_brewer_production_potion",
+        "card": "Brasseur de potions",
+        "name": "Produire potions",
+        "workers_required": 1,
+        "requirements": [
+            "BATIMENT BRASSEUR DE POTIONS"
+        ],
+        "inputs": {
+            "INGREDIENT": 2,
+            "CHARBON": 1,
+            "OUTIL": 1
+        },
+        "outputs": {
+            "POTION": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE"
+        ]
+    },
+    {
+        "id": "potion_brewer_production_medicine",
+        "card": "Brasseur de potions",
+        "name": "Produire médicament",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT BRASSEUR DE POTIONS"
+        ],
+        "inputs": {
+            "INGREDIENT": 2,
+            "BOIS": 2
+        },
+        "outputs": {
+            "MEDICAMENT": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "arena_construction",
+        "card": "Arène",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT ARENE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "library_construction",
+        "card": "Bibliothèque",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT BILIOTHEQUE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "bathouse_construction",
+        "card": "Bains publics",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT BAINS PUBLICS"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "corrupted_altar_construction",
+        "card": "Autel corrompu",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT AUTEL CORROMPU"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "observation_tower_construction",
+        "card": "Tour d'observation",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT TOUR OBSERVATIOn"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "toolmaker_construction",
+        "card": "Quincaillerie",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 2,
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT QUINCAILLERIE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "toolmaker_production",
+        "card": "Quincaillerie",
+        "name": "Produire",
+        "workers_required": 2,
+        "requirements": [
+            "BATIMENT QUINCAILLERIE"
+        ],
+        "inputs": {
+            "METAL": 2,
+            "BOIS": 2
+        },
+        "outputs": {
+            "OUTIL": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE",
+            "FLEXIBLE"
+        ]
+    },
+    {
+        "id": "traps_construction",
+        "card": "Quincaillerie",
+        "name": "Produire",
+        "workers_required": 1,
+        "requirements": [
+            "BATIMENT QUINCAILLERIE"
+        ],
+        "inputs": {
+            "FIBRE": 2,
+            "BOIS": 1,
+            "PIERRE": 1
+        },
+        "outputs": {
+            "PIEGE": 2
+        },
+        "grants": [],
+        "tags": [
+            "RESSOURCE"
+        ]
+    },
+    {
+        "id": "palissade_construction",
+        "card": "Défenses",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "BOIS": 16
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT PALISSADE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "wall_construction",
+        "card": "Défenses",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "BRIQUE": 24
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT MURAILLE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "mote_construction",
+        "card": "Défenses",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "OUTIL": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT FOSSE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "kitchen_construction",
+        "card": "Cuisine",
+        "name": "Construire",
+        "workers_required": 2,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 4,
+            "BRIQUE": 4
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT CUISINE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "mage_tower_construction",
+        "card": "Tour de mage",
+        "name": "Construire",
+        "workers_required": 3,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT TOUR DE MAGE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "advanced_workshop_construction",
+        "card": "Atelier avancé",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT ATELIER AVANCE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": "city_hall_construction",
+        "card": "Hotel de ville",
+        "name": "Construire",
+        "workers_required": 4,
+        "requirements": [],
+        "inputs": {
+            "PLANCHE": 6,
+            "BRIQUE": 6,
+            "TEXTILE": 6
+        },
+        "outputs": {},
+        "grants": [
+            "BATIMENT HOTEL DE VILLE"
+        ],
+        "tags": [
+            "CONSTRUCTION"
+        ]
+    },
+    {
+        "id": null,
+        "card": null,
+        "name": null,
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [],
+        "tags": []
+    },
+    {
+        "id": null,
+        "card": null,
+        "name": null,
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [],
+        "tags": []
+    },
+    {
+        "id": null,
+        "card": null,
+        "name": null,
+        "workers_required": 0,
+        "requirements": [],
+        "inputs": {},
+        "outputs": {},
+        "grants": [],
+        "tags": []
     }
 ]
